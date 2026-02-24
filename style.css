@@ -12,15 +12,48 @@ h1 {
 
 h2 {
   color: #34d399;
-    color:  ;
-    background-color:#171f25;
+      background-color:#171f25;
     margin: 2em 10vh
     font-size: center, 10px
 }
 
+  .imagem-flutuante {
+    float: left;
+    width: 150px;
+    height: 20vh;
+     margin: 1em;
+    display: flex;
+    
+    
+  }
+.subtitulo {
+  clear: both;
+}
+
+.container { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,td {
+   border: 1px solid     #171f25;
+   color: black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color:    backgro#171f25;
+;
+;
 h3 {
   color: #34d399;
-    color:  ;
     background-color:#171f25;
     margin: 2em 10vh
     font-size: center, 10px
@@ -38,15 +71,6 @@ div {
 nav {
     
   color: #34d399;
-    color: ;
-
-}
-
-img {
-    height: 20vh;
-    margin: 1em;
-    display: flex;
-    padding: 20px ;
     
 
 }
