@@ -1,29 +1,43 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-h1 {
-  color: #34d399;
-    color:  ;
-    background-color:#171f25;
-    margin: 2em 10vh
-    font-size: 10px
-    diplay: flex;
-} 
-
-h2 {
-  color: #34d399;
-      background-color:#171f25;
-    margin: 2em 10vh
-    font-size: center, 10px
+      box-sizing: border-box;
 }
 
+ header {
+
+    color: #34d399;
+    background-color:#d5e0e9;
+    border-radius: 10px;
+    margin: 2em 10px;
+    font-size: 20px;
+ }
+
+ h1 {
+  color: #34d399;
+  background-color: #171f25;
+  border-radius: 10px;
+  margin:  10px;
+  padding: 10px;
+  text-align: center;
+ margin: 5px; 
+ }
+  h2, h3 {
+
+     color: #34d399;
+  background-color: #171f25;
+  border-radius: 10px;
+  margin: 1px;  
+  font-size: 20px;
+  padding: 10px; 
+  }
+    
   .imagem-flutuante {
     float: left;
+    border-radius: 10px;
     width: 150px;
     height: 20vh;
      margin: 1em;
-    display: flex;
-    
+        
     
   }
 .subtitulo {
@@ -31,33 +45,49 @@ h2 {
 }
 
 .container { 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  list-style: none;          /* remove os bullets padrão */
+  display: flex;
+  gap: 20px;                 /* espaçamento entre itens */
+  padding: 0;                /* remove padding padrão da UL */
+  margin: 20px 0;
+  background-color: #d5e0e9;
+  border-radius: 10px;
+  
 }
 
-table{
+table {
   width: 100%;
   border-collapse: collapse;
-}
-
-th,td {
-   border: 1px solid     #171f25;
-   color: black;
-    padding: 10px;
-    text-align: left;
+  font-family: Arial, sans-serif;
+  background-color: #d5e0e9;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 5px 0;
 }
 
 th {
-    background-color:    backgro#171f25;
-;
-;
-h3 {
+  background-color: #171f25;
+  border-radius: 10px;
   color: #34d399;
-    background-color:#171f25;
-    margin: 2em 10vh
-    font-size: center, 10px
+  text-align: left;
+  padding: 12px;
 }
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+tr:hover {
+  background-color: #e6fffa;
+  transition: 0.2s;
+}
+
+
 div {
     height: 150px;
     color: aquamarine;
@@ -70,7 +100,31 @@ div {
 
 nav {
     
-  color: #34d399;
+  color: #171f25;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
     
 
+}
+input{
+  
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #171f25;
+  color: #34d399;
+  text-align: center;
+  margin: 0%;
+  padding: 1px;
+   position: fixed;
+  bottom: 0;
+  width: 100%;
+ border-radius: 10px;
+
+}
+
+body {
+  padding-bottom: 50px;
 }
